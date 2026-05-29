@@ -651,6 +651,54 @@
       font-size: 60px;
     }
   }
+  .lg\:shadow-\[0px\] {
+    @media (width >= 64rem) {
+      --tw-shadow: 0px;
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    }
+  }
+  .lg\:shadow-\[0px_0px\] {
+    @media (width >= 64rem) {
+      --tw-shadow: 0px 0px var(--tw-shadow-color, currentcolor);
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    }
+  }
+  .lg\:shadow-\[0px_0px_10px\] {
+    @media (width >= 64rem) {
+      --tw-shadow: 0px 0px 10px var(--tw-shadow-color, currentcolor);
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    }
+  }
+  .lg\:shadow-\[0px_0px_40px\] {
+    @media (width >= 64rem) {
+      --tw-shadow: 0px 0px 40px var(--tw-shadow-color, currentcolor);
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    }
+  }
+  .lg\:shadow-\[0px_0px_50px\] {
+    @media (width >= 64rem) {
+      --tw-shadow: 0px 0px 50px var(--tw-shadow-color, currentcolor);
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    }
+  }
+  .lg\:shadow-\[0px_0px_100px\] {
+    @media (width >= 64rem) {
+      --tw-shadow: 0px 0px 100px var(--tw-shadow-color, currentcolor);
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    }
+  }
+  .lg\:shadow-\[0px_0px_\] {
+    @media (width >= 64rem) {
+      --tw-shadow: 0px 0px var(--tw-shadow-color, currentcolor);
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    }
+  }
+  .lg\:shadow-\[0px_\] {
+    @media (width >= 64rem) {
+      --tw-shadow: 0px;
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    }
+  }
   .lg\:shadow-xl {
     @media (width >= 64rem) {
       --tw-shadow: 0 20px 25px -5px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 8px 10px -6px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
